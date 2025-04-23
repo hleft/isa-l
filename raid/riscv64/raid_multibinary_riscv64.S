@@ -33,6 +33,7 @@
     mbin_interface		pq_gen
     mbin_interface		xor_gen
 #else
+
     mbin_interface_base         pq_gen pq_gen_base
     mbin_interface_base         xor_gen xor_gen_base
 #endif
